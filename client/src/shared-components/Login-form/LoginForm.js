@@ -8,10 +8,9 @@ function LoginForm() {
   return (
     <form className="">
       <div className="first-name d-flex py-2 align-items-center">
-        <span className="col-md-4 input-name">First Name</span>
         <input
           type="firstName"
-          class="form-control"
+          className="form-control"
           value={firstName}
           onChange={(e) => setFirstName(e.target.value)}
           placeholder="First name"
@@ -20,9 +19,8 @@ function LoginForm() {
         />
       </div>
       <div className="last-name d-flex py-2 align-items-center">
-        <span className="col-md-4 input-name">Last Name</span>
         <input
-          class="form-control"
+          className="form-control"
           value={lastName}
           onChange={(e) => setLastName(e.target.value)}
           placeholder="Last name"
@@ -32,9 +30,8 @@ function LoginForm() {
         />
       </div>
       <div className="email d-flex py-2 align-items-center">
-        <span className="col-md-4 input-name">Email</span>
         <input
-          class="form-control"
+          className="form-control"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Email address"
@@ -44,9 +41,8 @@ function LoginForm() {
         />
       </div>
       <div className="password d-flex py-2 align-items-center">
-        <span className="col-md-4 input-name">Password</span>
         <input
-          class="form-control"
+          className="form-control"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Password"
